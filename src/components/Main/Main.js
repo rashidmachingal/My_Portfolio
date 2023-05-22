@@ -1,0 +1,1 @@
+export const Main = ({children}) =>  <div className='main_white_box' >{children}</div>

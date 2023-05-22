@@ -1,7 +1,7 @@
 import MyImage from '../../../public/rashid-machingal.jpeg'
 import Image from "next/image"
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <div className="hero" >
         <div className="left_side">
@@ -11,10 +11,12 @@ const Hero = () => {
           </div>
         </div>
         <div className="right_side">
-          <Image src={MyImage} width={200} height={200} />
+          <Image 
+           src={MyImage} width={180} height={180} 
+           alt='Picture of Rashid Machingal' 
+           title='Profile picture of Rashid Machingal, he is a web developer'
+          />
         </div>
     </div>
   )
 }
-
-export default Hero

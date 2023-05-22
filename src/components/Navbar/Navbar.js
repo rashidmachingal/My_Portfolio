@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-const Navbar = () => {
+export const Navbar = () => {
   return (
     <nav className="navbar" >
         <div className="brand_name">
@@ -17,4 +17,3 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
