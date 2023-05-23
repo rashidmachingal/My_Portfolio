@@ -1,4 +1,4 @@
-import { Main, Hero, Navbar, About, Projects } from '../src/components'
+import { Main, Hero, Navbar, About, Projects, BlogSection } from '../src/components'
 import Head from 'next/head'
 
 export default function Home() {
@@ -15,6 +15,7 @@ export default function Home() {
        <Hero/>
        <About/>
        <Projects/>
+       <BlogSection/>
       </Main>
 
     </div>

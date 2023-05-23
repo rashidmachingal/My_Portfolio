@@ -3,3 +3,4 @@ export { Navbar } from "./Navbar/Navbar";
 export { Hero } from './Hero/Hero'
 export { About } from './About/About'
 export { Projects } from './Projects/Projects'
+export { BlogSection } from './Blog/BlogSection'
