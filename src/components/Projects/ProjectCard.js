@@ -1,5 +1,5 @@
 import Image from "next/image"
-import ProjectImg from '../../../public/project-1.png'
+import ProjectImg from '../../../public/blog-thumbnail.png'
 import Link from "next/link"
 
 export const ProjectCard = () => {
