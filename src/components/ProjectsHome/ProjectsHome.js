@@ -1,7 +1,7 @@
 import { ProjectCard } from "./ProjectCard"
 import Link from "next/link"
 
-export const Projects = () => {
+export const ProjectsHome = () => {
   return (
     <div className="projects" >
         <h2>Some of my projects</h2>

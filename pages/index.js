@@ -1,4 +1,4 @@
-import { Hero, About, Projects, BlogSection } from '../src/components'
+import { Hero, About, BlogSectionHome, ProjectsHome } from '../src/components'
 import Head from 'next/head'
 
 export default function Home() {
@@ -12,8 +12,8 @@ export default function Home() {
 
        <Hero/>
        <About/>
-       <Projects/>
-       <BlogSection/>
+       <ProjectsHome/>
+       <BlogSectionHome/>
     </>
   )
 }
