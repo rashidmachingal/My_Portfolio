@@ -1,12 +1,12 @@
 import { BlogCard } from "./BlogCard"
 import Link from "next/link"
 
-export const BlogSection = () => {
+export const BlogSectionHome = () => {
 
   return (
     <div className="blog_section" >
-      <h2>My all blog posts</h2>
-      <p>Here is my all blog posts on coding, technology and more.</p>
+      <h2>Latest Blog Posts</h2>
+      <p>Here is my last three blog posts. More blogs you can read at <Link href="/blogs" >blogs page</Link></p>
       <div className="blog_cards" >
         <BlogCard/>
         <BlogCard/>
