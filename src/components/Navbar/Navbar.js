@@ -4,7 +4,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar" >
         <div className="brand_name">
-            <h2>RASHID MACHINGAL</h2>
+            <Link href="/" ><h2>RASHID MACHINGAL</h2></Link>
         </div>
 
         <ul>
