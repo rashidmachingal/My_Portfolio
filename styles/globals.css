@@ -397,4 +397,74 @@ p{
     width: 100%;
   }
 }
+
+.blog_post{
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.blog_post_title h1{
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.blog_post_container{
+  margin-top: 1rem;
+}
 /* blog section end */
+
+/* blog profiles start */
+.top_profile{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top_profile img{
+  width: 3rem;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 1px #0000003c;
+}
+
+.top_profile h4{
+  font-weight: 500;
+}
+
+.top_profile p{
+  font-size: 14px;
+  color: grey;
+}
+
+.profile_box{
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  background: #F5F5F5;
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+
+.profile_box img{
+  width: 5rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+.profile_box h4{
+  font-weight: 600;
+}
+
+.profile_box p{
+  font-size: 16px;
+}
+
+.profile_box div{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+/* blog profiles end */
