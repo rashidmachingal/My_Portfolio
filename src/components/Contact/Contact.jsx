@@ -1,6 +1,6 @@
-import Link from "next/link"
 import { BsInstagram, BsLinkedin } from "react-icons/bs"
 import { HiMail } from "react-icons/hi"
+import Link from "next/link"
 
 export const Contact = () => {
   return (

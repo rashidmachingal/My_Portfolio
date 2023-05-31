@@ -1,4 +1,4 @@
-import { ProjectCard } from "./ProjectCard"
+import { ProjectCard } from '..'
 import Project1 from '../../../public/project-1.png'
 import Project2 from '../../../public/project-2.png'
 import Link from "next/link"

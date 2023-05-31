@@ -1,4 +1,5 @@
-import { ProjectsCards } from "./ProjectsCards"
+import { ProjectsCards } from "@/components"
+
 
 export const ProjectsPage = () => {
 

@@ -1,5 +1,4 @@
-import { BlogCard } from "./BlogCard"
-import Link from "next/link"
+import { BlogCard } from "@/components"
 
 export const BlogSection = () => {
 
@@ -15,4 +14,3 @@ export const BlogSection = () => {
     </div>
   )
 }
-

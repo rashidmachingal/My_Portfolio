@@ -1,5 +1,6 @@
 import Link from "next/link"
 
+
 export const Navbar = () => {
   return (
     <nav className="navbar" >
@@ -16,4 +17,3 @@ export const Navbar = () => {
     </nav>
   )
 }
-

@@ -1,5 +1,4 @@
-import React from 'react'
-import { ProfileBox, TopProfile } from './Profiles/Profiles'
+import { ProfileBox, TopProfile } from '@/components'
 
 export const BlogPost = () => {
   return (
