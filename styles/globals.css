@@ -149,6 +149,12 @@ p{
   width: 100%;
 }
 
+.social_icons a{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 @media (max-width:1000px) {
   .hero{
     margin-top: 1rem;
