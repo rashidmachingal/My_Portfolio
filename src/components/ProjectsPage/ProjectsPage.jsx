@@ -19,7 +19,7 @@ export const ProjectsPage = () => {
   ]
 
   return (
-    <div className="projects" >
+    <div className="projects min_height" >
         <h2>My Personal Projects</h2>
         <p>
           Here are some of my personal projects along with live links

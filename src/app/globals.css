@@ -18,6 +18,10 @@ p{
   font-weight: 400;
 }
 
+.min_height{
+  min-height: 70vh;
+}
+
 .container{
   width: 100%;
   min-height: 100vh;

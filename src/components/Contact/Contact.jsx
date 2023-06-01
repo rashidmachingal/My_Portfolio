@@ -6,7 +6,7 @@ export const Contact = () => {
   return (
      <div>
         <p>You can contact me through linkedin, instagram, or e-mail</p>
-      <div className="social_icons about" >
+      <div className="social_icons about min_height" >
         <Link href="https://www.linkedin.com/in/rashid-machingal/" target="_blank" >
           <BsLinkedin/>
           <h5>LinkedIn</h5>

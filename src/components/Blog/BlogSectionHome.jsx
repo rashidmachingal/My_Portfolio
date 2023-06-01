@@ -6,7 +6,7 @@ export const BlogSectionHome = ({ data }) => {
   return (
     <div className="blog_section" >
       <h2>Latest Blog Posts</h2>
-      <p>Here is my last three blog posts. More blogs you can read at <Link href="/blogs" >blogs page</Link></p>
+      <p>Here is my latest blog posts. More blogs you can read at <Link href="/blogs" >blogs page</Link></p>
       <div className="blog_cards" >
       {data?.map((blog, index) => {
           return(
