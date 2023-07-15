@@ -14,10 +14,10 @@ export const ProjectsHome = () => {
       image: Project1
     },
     {
-      title: "Mallu Nighandu - English Malayalam Dictionary",
-      description: "Mallu Nighandu is an English-Malayalam dictionary web application created with olam.in dataset.",
-      github_link: "https://github.com/rashidmachingal/Mallu_Nighandu",
-      live_link: "https://www.mallunighandu.tk/",
+      title: "Palunk Nighandu - English Malayalam Dictionary",
+      description: "Palunk Nighandu is an English-to-Malayalam dictionary web app that empowers users to contribute. Created with Express Js, EJS, MongoDB",
+      github_link: "https://github.com/rashidmachingal/Palunk_Nighandu",
+      live_link: "https://lonely-sweatpants-ant.cyclic.app/",
       image: Project2
     }
   ]
