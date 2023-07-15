@@ -5,7 +5,7 @@ export const ProjectCard = ({project}) => {
   return (
     <div className="project_card" >
       <div className="project_img">
-        <Image src={project.image} />
+        <Image src={project.image}alt="Project Picture" />
       </div>
       <div className="project_details" >
         <div>
