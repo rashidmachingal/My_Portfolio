@@ -21,7 +21,7 @@ export const ProfileBox = () => {
         <h4>Rashid Machingal</h4>
         <p>
           My name is Rashid, a front-end React developer from Malappuram,
-          Kerala. I'm an aspiring blogger, excited to share my insights
+          Kerala. I&apos;m an aspiring blogger, excited to share my insights
           on coding, technologies, and other related topics.
         </p>
       </div>
