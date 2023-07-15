@@ -1,6 +1,7 @@
 // fetch all blogs from wordpress
 export async function getBlogPosts() {
-    const res = await fetch('https://mywordpresscms.000webhostapp.com/wp-json/wp/v2/posts');
+    const res = await fetch('https://mywordpresscms.000webhostapp.com/wp-json/wp/v2/posts',
+    { next: { revalidate: 60 } });
 
     if (!res.ok) {
       // This will activate the closest `error.js` Error Boundary
@@ -29,7 +30,8 @@ export async function getBlogPosts() {
 
 // fetch single blog post from wordpress
 export async function getSingleBlogPost(blog_slug) {
-  const res = await fetch(`https://mywordpresscms.000webhostapp.com/wp-json/wp/v2/posts?slug=${blog_slug}`);
+  const res = await fetch(`https://mywordpresscms.000webhostapp.com/wp-json/wp/v2/posts?slug=${blog_slug}`,
+  { next: { revalidate: 60 } });
 
   if (!res.ok) {
     // This will activate the closest `error.js` Error Boundary
