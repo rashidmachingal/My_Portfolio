@@ -379,7 +379,7 @@ p{
 .blog_cards{
   margin-top: 1.5rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -462,7 +462,7 @@ p{
 
 .profile_box{
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 2.5rem;
   display: flex;
   align-items: center;
   gap: 1.4rem;

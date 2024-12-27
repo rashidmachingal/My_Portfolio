@@ -7,7 +7,7 @@ export const BlogSectionHome = ({ data }) => {
     <div className="blog_section" >
       <h2>Latest Blog Posts</h2>
       <p>Here is my latest blog posts. More blogs you can read at <Link href="/blogs" >blogs page</Link></p>
-      <div className="blog_cards" >
+      { data?.status !== false && <div className="blog_cards" >
       {data?.map((blog, index) => {
           return(
             <BlogCard key={index} 
@@ -20,7 +20,7 @@ export const BlogSectionHome = ({ data }) => {
             />
           )
         })}
-      </div>
+      </div>}
     </div>
   )
 }
