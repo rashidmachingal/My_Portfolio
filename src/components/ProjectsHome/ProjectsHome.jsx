@@ -16,7 +16,7 @@ export const ProjectsHome = () => {
         "Integrated Google Analytics API in dashboard"
       ],
       github_link: "https://github.com/rashidmachingal/growthfied",
-      live_link: "https://www.growthfied.com/",
+      live_link: "https://www.growthfied.com/login",
       screenshots_link: "",
       tech_used: "Next Js (app router), Tailwind CSS, Typescript, Zustand Sate Management, Express Js, Node Js, MongoDB, Redis"
     },
