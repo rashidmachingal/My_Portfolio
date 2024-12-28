@@ -4,11 +4,7 @@ export const About = () => {
       <h2>ABOUT ME</h2>
       <div className="para_container">
         <p className="mark" >
-          I&lsquo;m a <mark >React/front-end developer</mark> from Malappuram, Kerala, with a
-          passion for computers that started in my childhood when I loved
-          exploring and tinkering with them. My web development journey began in
-          2020, and since then, I&lsquo;ve successfully completed several projects,
-          showcasing my various skills
+          I&lsquo;m a <mark >React/front-end developer</mark> from Malappuram, Kerala, I&lsquo;ve loved exploring and tinkering around with computers since my early childhood. I started My web development journey in 2020, and since then, I&lsquo;ve completed some exciting projects and obtained various skills.
         </p>
       </div>
     </div>
