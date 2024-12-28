@@ -9,22 +9,6 @@ export const Skills = () => {
       <h2>TECHNOLOGIES</h2>
       <div className="skills_list">
         <div className="skills_box" >
-          <RiReactjsFill color="#58c4dc" size={32} />
-          <span>React Js</span>
-        </div>
-        <div className="skills_box" >
-          <RiNextjsFill color="black" size={32} />
-          <span>Next Js</span>
-        </div>
-        <div className="skills_box" >
-          <SiJavascript color="#f7df1e" style={{ background: "black" }} size={25} />
-          <span>Javascript</span>
-        </div>
-        <div className="skills_box" >
-          <SiTypescript color="#3178c6" size={23} />
-          <span>Typescript</span>
-        </div>
-        <div className="skills_box" >
           <RiTailwindCssFill color="#38bdf8" size={23} />
           <span>Tailwind</span>
         </div>
