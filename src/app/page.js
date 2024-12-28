@@ -15,7 +15,7 @@ export default async function Home() {
     <>
       <Hero/>
       <About/>
-      <Skills/>
+      {/* <Skills/> */}
       <ProjectsHome/>
       <BlogSectionHome data={data} />
     </>
