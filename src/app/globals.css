@@ -262,6 +262,13 @@ p{
   color: #64748b;
 }
 
+@media screen and (max-width: 600px) {
+  .skills_list{
+    justify-content: center;
+  }
+  
+}
+
 /* skils end */
 
 /* projects start */

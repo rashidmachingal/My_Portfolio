@@ -56,10 +56,7 @@ export const Skills = () => {
           <SiNginx color="#009639" size={23} />
           <span>Nginx</span>
         </div>
-        <div className="skills_box" >
-          <LiaGit color="#f05033" size={23} />
-          <span>Git</span>
-        </div>
+
       </div>
     </div>
   )
