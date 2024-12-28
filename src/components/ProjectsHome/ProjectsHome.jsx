@@ -19,7 +19,7 @@ export const ProjectsHome = () => {
       title: "Palunk Nighandu - English Malayalam Dictionary",
       description: "Palunk Nighandu is an English-to-Malayalam dictionary web app that empowers users to contribute. Created with Express.js, EJS, and MongoDB.",
       github_link: "https://github.com/rashidmachingal/Palunk_Nighandu",
-      live_link: "https://palunknighandu.rashidmachingal.in/json/english-malayalam/word",
+      live_link: "https://palunknighandu.rashidmachingal.in",
     },
     {
       is_public: false,
@@ -27,7 +27,7 @@ export const ProjectsHome = () => {
       title: "CSV Anywhere - Report Automation Service",
       description: "A report automation service where I converted Figma UI designs to React components for both the web and landing page.",
       github_link: "https://github.com/rashidmachingal/Palunk_Nighandu",
-      live_link: "https://palunknighandu.rashidmachingal.in/json/english-malayalam/word",
+      live_link: "",
       screenshots_link: "/csvanywhere"
     },
     {
@@ -36,7 +36,7 @@ export const ProjectsHome = () => {
       title: "Receipt Generation & Accounting - BCC Charitable Trust",
       description: "Created a feature for create digital PDF receipts with pdfkit library, replacing Bcc charitable trust’s previous use of physical receipts, work in progress.",
       github_link: "https://github.com/rashidmachingal/Palunk_Nighandu",
-      live_link: "https://palunknighandu.rashidmachingal.in/json/english-malayalam/word",
+      live_link: "",
       screenshots_link: "/csvanywhere"
     }
   ]
