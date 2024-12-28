@@ -120,6 +120,7 @@ p{
 }
 
 .hero .left_side h2{
+  margin-top: 0.5rem;
   font-weight: 600;
   font-size: 24px;
 }
@@ -134,6 +135,31 @@ p{
 .hero .left_side img{
   border-radius: 50%;
 }
+
+.resume{
+  margin-top: 0.9rem;
+}
+
+.resume a{
+  border: 1px solid #d3d3d381;
+  background: #d3d3d381;
+  color: #2a2a2a;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9rem;
+  gap: 5px;
+}
+
+.resume a:hover{
+  border: 1px solid black;
+}
+
 
 .social_icons{
   margin-top: 8px;
