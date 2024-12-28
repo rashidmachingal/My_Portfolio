@@ -10,6 +10,14 @@ export const ProjectCard = ({project}) => {
         <div>
           <h4>{project.title}</h4>
           <p>{project.description}</p>
+          {project.points.map((item, index) => {
+            return (
+              <ul key={index} className="project_points" >
+                <li>{item}</li>
+              </ul>
+            )
+          })}
+          <p className="tech-used" >Technologies Used: {project.tech_used}</p>
         </div>
         { project.is_public && (<div>
           <Link target="_blank" href={project.github_link} >

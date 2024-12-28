@@ -381,6 +381,23 @@ p{
   font-weight: 600;
 }
 
+.project_points{
+  gap: 0;
+  padding-left: 1rem;
+  font-size: 14px;
+  line-height: 12px;
+}
+
+.project_points li{
+  line-height: 17px;
+}
+
+.tech-used{
+  margin-top: 3px;
+  font-size: 14px!important;
+  color: #2a2a2a;
+}
+
 @media (max-width:600px) {
   .project_card{
     height: auto;
