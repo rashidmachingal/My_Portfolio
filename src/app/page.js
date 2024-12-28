@@ -1,4 +1,4 @@
-import { About, BlogSectionHome, Hero, ProjectsHome } from "@/components";
+import { About, BlogSectionHome, Hero, ProjectsHome, Skills } from "@/components";
 import { getBlogPosts } from "@/utils/wordpress";
 
 export default async function Home() {
@@ -10,6 +10,7 @@ export default async function Home() {
     <>
       <Hero/>
       <About/>
+      <Skills/>
       <ProjectsHome/>
       <BlogSectionHome data={data} />
     </>
