@@ -201,6 +201,10 @@ p{
   gap: 10px;
 }
 
+.about p span{
+  color: red!important;
+}
+
 /* about end */
 
 /* skils start */
@@ -557,5 +561,14 @@ p{
   gap: 1rem;
 }
 
-
-/* screenshots end */
+mark {
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    #90ee901a,
+    #90ee90b3 4%,
+    #90ee904d
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}

@@ -41,13 +41,15 @@ export async function getSingleBlogPost(blog_slug) {
   // date formate like June 19 2023
   const date = new Date(post[0]?.date);
   const formattedDate = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  const preview = post[0]?.content.rendered.split('</p>')[0].replace(/<[^>]+>/g, '');
     
   const blogPost = 
     {
       status: true,
       title: post[0]?.title.rendered,
       date: formattedDate,
-      content: post[0]?.content.rendered
+      content: post[0]?.content.rendered,
+      preview: preview,
     }
 
   return blogPost

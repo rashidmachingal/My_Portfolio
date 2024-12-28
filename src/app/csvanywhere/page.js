@@ -1,5 +1,10 @@
 import Image from 'next/image';
 
+export const metadata = {
+    title: 'CSV Anywhere - Rashid Machingal',
+    description: 'CSV Anywhere is a report automation service where I converted Figma UI designs to React components for both the web and landing page. View screenshots of the project here.',
+}
+
 export default function Page() {
 return (
     <div className="blog_post">
