@@ -200,6 +200,11 @@ p{
   .social_icons{
     justify-content: center;
   }
+
+  .resume{
+    display: flex;
+    justify-content: center;
+  }
 }
 /* hero end */
 
