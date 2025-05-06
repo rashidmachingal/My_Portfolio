@@ -626,3 +626,11 @@ mark {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
+
+.wp-block-list li{
+  margin-top: 1rem!important;
+}
+
+strong{
+  font-weight: 600!important;
+}
