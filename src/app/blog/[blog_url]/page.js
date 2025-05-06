@@ -6,8 +6,8 @@ export async function generateMetadata({ params }) {
   const blog = await getSingleBlogPost(blog_slug)
 
   return {
-    title: blog.title || 'Default Title',
-    description: blog.excerpt || 'Default Description',
+    title: blog.yoast_head_json.title || 'No Title',
+    description: blog.yoast_head_json.description || 'No Description',
   }
 }
 
