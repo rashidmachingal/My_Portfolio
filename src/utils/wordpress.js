@@ -50,6 +50,10 @@ export async function getSingleBlogPost(blog_slug) {
       date: formattedDate,
       content: post[0]?.content.rendered,
       preview: preview,
+      meta: {
+        title: post[0]?.yoast_head_json?.title,
+        description: post[0]?.yoast_head_json?.description
+      }
     }
 
   return blogPost
